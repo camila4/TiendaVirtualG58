@@ -1,0 +1,136 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+
+    <header>
+<!-- ======================================Navigation Bar================================================= -->
+        <nav class="navbar navbar-expand-lg navStyle">
+            <a class="brand-navbar" href="\dashboard"><img src="assets/Logo.jpg" alt="Responsive image" height="60px"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+                <span><i class="fas fa-align-right iconStyle"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ml-auto navList">
+                    <li class="nav-item active"><a href="\dashboard" class="nav-link"><i class="fas fa-home"></i>HOME<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item">
+                        <a href="\usuarios" class="nav-link"><i class="fas fa-users"></i>Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="\clientes" class="nav-link"><i class="fas fa-briefcase"></i>Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="\proveedores" class="nav-link"><i class="fas fa-phone"></i>Proveedores</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="\productos" class="nav-link"><i class="fas fa-users"></i>Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="\ventas" class="nav-link"><i class="fas fa-folder-open"></i>Ventas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="\reportes" class="nav-link"><i class="fas fa-cogs"></i>Reportes</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"><i class="fas fa-sign-out"></i>Salir</a>
+              </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+        
+        
+        <div class="container">
+            <div class="row">           
+                
+        <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        
+        <!-- FORM  -->	    
+               <div class="col-md-12">
+                <form class="form-horizontal" id="form-edit-client">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>Productos</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="prove-name">Elige tu Archivo</label>  
+          <input type="file" id="files" name="files[]" multiple />
+          <div class="col-md-4">
+          </div>
+        </div>
+        
+       <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="btn-save"></label>
+          <div class="col-md-4">
+            <button id="btn-save" name="btn-save" class="btn btn-success">Cargar</button>
+          </div>
+        </div>
+        
+        </fieldset>
+        </form>
+        </div> 
+                
+        <!-- LIST -->
+        <div class=col-md-12>
+            
+            <form id="form-list-client">
+                    <legend>Productos</legend>
+            
+            <div class="pull-right">
+                <a class="btn btn-default-btn-xs btn-primary"><i class="glyphicon glyphicon-refresh"></i> Refresh</a>
+                <a class="btn btn-default-btn-xs btn-success"><i class="glyphicon glyphicon-plus"></i> Agregar </a>
+            </div>
+            <table class="table table-bordered table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <td>Codigo</td>
+                        <th>Nombre</th>
+                        <th>Nit Proveedor</th>
+                        <th>Precio Compra</th>
+                        <th>IVA</th>
+                        <th>Precio Venta</th>
+                    </tr>
+                        
+                </thead>
+                <tbody id="form-list-client-body">
+                    <tr>
+                        <td>001</td>
+                        <td>pantalon</td>
+                        <td>1085319743</td>
+                        <td>$ 25.000</td>
+                        <td>19%</td>
+                        <td>$ 40.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        
+            
+        </div>
+        
+        
+        <br>
+        
+        <!-- view -->
+ 
+            </div>
+        </div>        

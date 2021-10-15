@@ -1,0 +1,194 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <!-- ======================================Navigation Bar================================================= -->
+    <nav class="navbar navbar-expand-lg navStyle">
+      <a class="brand-navbar" href="\dashboard"><img src="assets/Logo.jpg" alt="Responsive image" height="60px"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+          <li class="nav-item active"><a href="\dashboard" class="nav-link"><i class="fas fa-home"></i>HOME<span
+                class="sr-only">(current)</span></a></li>
+          <li class="nav-item">
+            <a href="\usuarios" class="nav-link"><i class="fas fa-users"></i>Usuarios</a>
+          </li>
+          <li class="nav-item">
+            <a href="\clientes" class="nav-link"><i class="fas fa-briefcase"></i>Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a href="\proveedores" class="nav-link"><i class="fas fa-phone"></i>Proveedores</a>
+          </li>
+          <li class="nav-item">
+            <a href="\productos" class="nav-link"><i class="fas fa-users"></i>Productos</a>
+          </li>
+          <li class="nav-item active">
+            <a href="\ventas" class="nav-link"><i class="fas fa-folder-open"></i>Ventas</a>
+          </li>
+          <li class="nav-item">
+            <a href="\reportes" class="nav-link"><i class="fas fa-cogs"></i>Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><i class="fas fa-sign-out"></i>Salir</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">
+      <div>
+        <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+        <legend>Ventas</legend>
+
+        <!-- Text input-->
+        <label class="col-md-1 control-label" for="ventas-cedula">Cedula</label>
+        <div class="col-md-4">
+          <input id="ventas-cedula" name="ventas-cedula" type="text" placeholder="Cedula" class="form-control input-md">
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-1 control-label" for="btn-save"></label>
+          <div class="col-md-1">
+            <button id="btn-save" name="btn-save" class="btn btn-success">Consultar</button>
+          </div>
+        </div>
+
+        <legend>Factura</legend>
+
+
+        <div class="col-xs-6">
+          <h1><a href=" "><img alt="" src="assets\llogo.png" width="20%" /></a></h1>
+        </div>
+        <div class="col-xs-6 text-right">
+          <h1>FACTURA</h1>
+          <h1><small>Factura #001</small></h1>
+        </div>
+
+        <hr />
+
+
+        <div class="row">
+          <div class="col-xs-5">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4>De: <a href="#">Tienda de Ropa</a></h4>
+              </div>
+              <div class="panel-body">Dirección
+                detalles
+                más detalles</div>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-2 text-right">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4>Para : <a><input id="ventas-cedula" name="ventas-cedula" type="text" placeholder="Nombre" class="form-control input-md"></a></h4>
+              </div>
+              <div class="panel-body">Dirección
+                detalles
+                más detalles</div>
+            </div>
+          </div>
+        </div>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>
+                <h4>Cod Producto</h4>
+              </th>
+              <th>
+               
+              </th>
+              <th>
+                <h4>Nombre Producto</h4>
+              </th>
+              <th>
+                <h4>Cantidad</h4>
+              </th>
+              <th>
+                <h4>Valor Total</h4>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <input id="ventas-cedula" name="ventas-codprodu" type="text" placeholder="cod produc"
+                class="form-control input-md">
+              <td><a href="#"> <button id="btn-save" name="btn-save" class="btn btn-success">Consultar</button> </a>
+              </td>
+              <td class=" text-right "> <input id="ventas-cedula" name="ventas-codprodu" type="text" class="form-control input-md"></td>
+              <td class=" text-right "></td>
+              <td class=" text-right "></td>
+            </tr>
+            <tr>
+              <input id="ventas-cedula" name="ventas-codprodu" type="text" placeholder="cod produc"
+                class="form-control input-md">
+              <td><a href="#"> <button id="btn-save" name="btn-save" class="btn btn-success">Consultar</button> </a>
+              </td>
+              <td class="text-right"> <input id="ventas-cedula" name="ventas-codprodu" type="text" class="form-control input-md"></td>
+              <td class="text-right "></td>
+              <td class="text-right "></td>
+            </tr>
+            <tr>
+              <input id="ventas-cedula" name="ventas-codprodu" type="text" placeholder="cod produc"
+                class="form-control input-md">
+              <td><a href="#"> <button id="btn-save" name="btn-save" class="btn btn-success">Consultar</button> </a>
+              </td>
+              <td class="text-right"> <input id="ventas-cedula" name="ventas-codprodu" type="text" class="form-control input-md"></td>
+              <td class="text-right"></td>
+              <td class="text-right"></td>
+            </tr>
+
+
+          </tbody>
+        </table>
+        <pre>Sección Totales
+        </pre>
+        <div class="row text-right">
+          <div class="col-xs-3 col-xs-offset-7"><strong>
+             Total Venta
+            </strong></div>
+          <div class="col-xs-2"><input id="ventas-total" name="ventas-codprodu" type="text" class="form-control input-md">
+          </div>
+        </div>
+        <div class="row text-right">
+          <div class="col-xs-3 col-xs-offset-7"><strong>
+              Total Iva
+            </strong></div>
+          <div class="col-xs-2"><input id="ventas-iva" name="ventas-codprodu" type="text" class="form-control input-md">
+          </div>
+        </div>
+        <div class="row text-right">
+          <div class="col-xs-3 col-xs-offset-7"><strong>
+              Total con Iva
+            </strong></div>
+          <div class="col-xs-2"><input id="ventas-totaliva" name="ventas-codprodu" type="text" class="form-control input-md">
+          </div>
+        </div>
+        <br><br><br>
